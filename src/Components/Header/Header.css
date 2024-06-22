@@ -1,0 +1,27 @@
+.navbar 
+{
+    background-color: #2970ff;
+    padding: 0.5rem 0.5rem;
+    box-sizing: border-box;
+    scrollbar-width: none;
+    overflow: auto;
+   position: sticky;
+   z-index: 100;
+    top:0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.link 
+{
+    opacity:0.8;
+    cursor: pointer;
+}
+.link:hover {
+    opacity: 1;
+    transition: all 0.3s;
+}

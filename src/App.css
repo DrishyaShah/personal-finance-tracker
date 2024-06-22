@@ -1,0 +1,76 @@
+.wrapper , .charts-wrapper
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 90vh;
+}
+.charts-wrapper
+{
+  width: 92%;
+  justify-content: space-between;
+  height: auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow) ;
+  margin: 2rem;
+}
+.signup-wrapper
+{
+  width: 70%;
+  max-width: 600px;
+  height: auto;
+  box-shadow: 4px 4px 13px 4px var(--shadow); 
+  /* background-color: #eee; */
+border-radius: 1rem;
+  padding: 1rem;
+  
+}
+.title 
+{
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center ;
+}
+.btn 
+{
+  color: var(--theme);
+  text-align: center;
+  width: 100%;
+  margin: 0.5rem 0rem;
+  padding: 0.7rem 0rem;
+  background-color: #fff;
+  border: 1px solid var(--theme);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: auto !important;
+  
+}
+
+.btn:hover {
+  background-color: var(--theme);
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.btn-blue {
+  background-color: var(--theme);
+  color: #fff;
+}
+
+.btn-blue:hover {
+  background-color: #fff !important;
+  color: var(--theme) !important;
+  transition: all 0.3s;
+}
+.p-login 
+{
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
